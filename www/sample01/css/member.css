@@ -1,0 +1,130 @@
+/* 회원가입 */
+.join_step{padding: 20px 0 40px 30px;}
+.join_step li {float: left; background: url("../images/sub/join_step_arrow.png") right top no-repeat; }
+.join_step li.on {background: url("../images/sub/join_step_arrow_on.png") right top no-repeat;}
+.join_step li:last-child{background:none;}
+.join_step .join_step_cont {min-height: 90px; padding: 0 50px 0 150px;}
+.join_step .join_step_cont strong { display: block; font-size: 20px; font-weight: 600; color:#333; line-height: 22px; padding: 20px 0 2px;}
+.join_step .join_step_cont span { display: block; font-size: 17px; line-height: 20px;}
+
+.join_step li.step01 .join_step_cont{background:url(../images/sub/join_step01.png) 15px center no-repeat;}
+.join_step li.step02 .join_step_cont{background:url(../images/sub/join_step02.png) 15px center no-repeat;}
+.join_step li.step03 .join_step_cont{background:url(../images/sub/join_step03.png) 15px center no-repeat;}
+.join_step li.step04 .join_step_cont{background:url(../images/sub/join_step04.png) 15px center no-repeat;}
+
+.join_step li.step01.on .join_step_cont{background:url(../images/sub/join_step01_on.png) 15px center no-repeat;}
+.join_step li.step02.on .join_step_cont{background:url(../images/sub/join_step02_on.png) 15px center no-repeat;}
+.join_step li.step03.on .join_step_cont{background:url(../images/sub/join_step03_on.png) 15px center no-repeat;}
+.join_step li.step04.on .join_step_cont{background:url(../images/sub/join_step04_on.png) 15px center no-repeat;}
+
+.join_checkbox h2{padding:30px 0 20px; display: block; font-size: 1.5em; font-weight: bold;}
+.join_checkbox .scroll_box{padding:9px; border:3px solid #297fb8;border-radius:4px;}
+.join_checkbox .scroll_box .join_contbox{font-size:14px;padding:15px; border: 1px dashed #ddd;border-radius:2px; height: 250px;overflow-y: auto; font-weight: 500; line-height:22px; }
+.join_checkbox .scroll_box .join_contbox p{font-size:14px; word-break: normal; font-weight: 400;}
+.join_checkbox .scroll_box .join_contbox b {
+    font-weight: bolder;
+}
+.check_box, .join_checkbox .check_box { padding: 20px 0; text-align: right;}
+.check_box label, .join_checkbox .check_box label { display: inline-block; padding-left: 5px; font-size:14px;}
+
+.join_box{}
+.join_box h2{padding:30px 0 20px;}
+.join_box h2 span{font-size:14px; font-weight:400; margin-left:10px;}
+.join_box h2 .join_memo{background: url(/images/join_point.gif) left center no-repeat; padding:0 0 0 15px; float:right;}
+.join_box .join_con{padding:9px; border:3px solid #297fb8;border-radius:4px;}
+.join_box .join_con .join_conbox{font-size:14px;padding:30px 50px; border: 1px dashed #ddd;border-radius:2px; line-height:22px}
+.join_box .join_con .join_conbox .join_tips{background:#f4f5f7; padding:30px; line-height:22px; font-weight:400;}
+.join_box .join_con .join_conbox .join_tips span{color:#2d5ca7;}
+.join_box .join_con .join_conbox strong{color:#333;}
+
+.join_box .join_con .join_conbox .join_info{ text-align:center; margin-top:30px}
+.join_box .join_con .join_conbox .join_info ul{display: inline-block;}
+.join_box .join_con .join_conbox .join_info li{margin-bottom:8px; text-align:left;}
+.join_box .join_con .join_conbox .join_info li label{display:inline-block;width:80px; text-align:right; padding-right:20px; }
+.join_box .join_con .join_conbox .join_info li input{width:205px;padding:8px 5px;font-size:14px;line-height:18px;vertical-align:middle;border:1px solid #ddd;}
+.join_box .join_con .join_conbox .join_info li select{padding:6px 5px;font-size:14px;line-height:18px;vertical-align:middle;border:1px solid #ddd;}
+.join_box .join_con .join_conbox textarea{border:1px solid #ddd; padding:10px; font-weight:350; font-size:14px; color:#666; width:100%;}
+
+.join_box .join_img{text-align:center;}
+.join_box .join_text{text-align:center; margin:20px 0 0;}
+.join_box .join_text h4{font-size:30px; color:#2d5ca7; font-weight:normal; margin:0 0 20px; line-height:1.3;}
+
+
+.join_btn02{ background: #a6b0bf; display: inline-block; border-radius:4px; color:#fff;padding: 10px; vertical-align: middle; margin-left:5px;}
+
+.consult_box li{margin-bottom:10px;}
+
+
+.clearfix:after{display:block;clear:both;content:".";visibility:hidden;height:0;}
+.clearfix {display:inline-block;}
+.clearfix {display:block;}
+
+.joinok {
+	background: url("../images/join_ok.jpg") no-repeat right 50%;
+	height:175px;
+	padding:0px;
+}
+
+
+/*zone_section 시작*/
+    .zone_section .info_wrap {}
+    .zone_section .info_wrap .info {overflow: hidden;margin-top: 0;}
+    .zone_section .info_wrap .info .sub_title {width:100%; float: none; margin-top: 80px; padding-right: 0px;}
+    .zone_section .info_wrap .info .sub_title .title {font-size: 28px; line-height: 42px;}
+    .zone_section .info_wrap .info .sub_image {width:100%;float: none;}
+    .zone_section .info_wrap .info .sub_image img {width:100%; margin: 20px 0;}
+    .zone_section .info_wrap .info:nth-child(3) {margin-top: -30px;}
+    .zone_section .info_wrap .info:nth-child(2) .sub_image:first-child {display: none;}
+    .zone_section .info_wrap .info:nth-child(2) .sub_image:last-child {display: block;}
+    .zone_section .info_wrap .info:nth-child(3) .sub_title {float: none; padding:0 0 0 0px}
+    .zone_section .info_wrap .info:nth-child(3) .sub_image {display: none;}
+    .zone_section .info_wrap .info:nth-child(4) .sub_image {margin-top: 30px;}
+/*zone_section 끝*/
+
+/*서브 공통*/
+.sub_section {position: relative; margin-top: 10px;}
+.sub_title {position: relative; padding-top: 50px;}
+.sub_title h2 { display:inline-block; font-size: 34px; color: #333; line-height: 34px; padding-bottom: 15px; border-bottom: 2px solid #333;}
+.sub_title .page_nav { position:absolute; right:0; bottom:25px;}
+.sub_title .page_nav li {display: inline-block;color: #393939; font-size: 13px; line-height: 13px; background:url(../images/arrow.gif) center left no-repeat; padding: 0 10px;}
+.sub_title .page_nav li:first-child {  background:url(../images/home_icon.gif) center left no-repeat; padding: 0 10px 0 20px;}
+
+.sub_section .sub_contents {padding-top:30px;}
+
+.sub_contents .sub_cont{/*opacity:0;*/ margin-top:30px;}
+.sub_contents .scont_title {font-size: 26px; line-height: 36px;}
+.sub_contents .scont_title strong{color: #2d5ca7;font-weight: 500;}
+.sub_contents .scont_title .tit01, .sub_section .sub_contents .tit02{opacity:0; top:100px;}
+.sub_contents .scont_title .tit01{opacity:1; top:0; transition: all 1.2s cubic-bezier(0.3, 0, 0, 1) 0s;}
+.sub_contents .scont_title .tit02{opacity:1; top:0; transition: all 1.2s cubic-bezier(0.3, 0, 0, 1) 0s;}
+
+.sub_contents .info_wrap .info {position:relative; opacity:0; top:100px; margin-top: 50px; }
+.sub_contents .info_wrap .info.active{opacity:1; top:0; transition: all 1.2s cubic-bezier(0.3, 0, 0, 1) 0s;}
+.sub_contents .info_wrap .info .info_img{position:absolute;}
+.sub_contents .info_wrap .info.itr .info_text{padding:50px 500px 0 0;}
+.sub_contents .info_wrap .info.itl .info_text{padding-left:500px;}
+.sub_contents .info_wrap .info.itr .info_img{top:0; right:0}
+.sub_contents .info_wrap .info.itl .info_img{top:0; left:0}
+.sub_contents .info_wrap .info h3  {font-size: 22px; line-height: 24px; margin-bottom:15px;color: #2d5ca7;font-weight: 400;}
+.sub_contents .cont_img{padding:15px 0 30px; text-align:center;}
+.sub_contents .cont_text{font-size: 14px; line-height: 24px;/* margin-top: 10px;*/ margin-bottom:30px;word-break: keep-all;}
+.sub_contents .sub_bg img {width: 100%;}
+
+.sub_contents .info_wrap .info .character_list li{float:left; width:16.666%; text-align:center; padding:0 15px; transition:all .3s ease-out;}
+.sub_contents .info_wrap .info .character_list li:hover{transform:translate(0px,-10px);}
+.sub_contents .info_wrap .info .character_list li .character_txt{padding:15px 0 0; font-size:14px;}
+.sub_contents .info_wrap .info .character_list li .character_txt strong{font-size:16px;}
+.sub_contents .info_wrap .info .character_list li .character_txt p{padding-top:10px;}
+
+/* 멤버 */
+	
+.join_step li{width:25%; margin-bottom:10px; background-position:95% center;}
+.join_step li.on{ background-position:95% center;}
+.join_step li.step01 .join_step_cont, .join_step li.step02 .join_step_cont,.join_step li.step03 .join_step_cont,.join_step li.step04 .join_step_cont{background-position:left top;}
+	.join_step li.step01.on .join_step_cont, .join_step li.step02.on .join_step_cont,.join_step li.step03.on .join_step_cont,.join_step li.step04.on .join_step_cont{background-position:left top;}
+.join_step .join_step_cont{padding:0 30px 0 100px}
+
+@media ( max-width: 800px )
+.join_step {padding:20px 0 40px 0}
+.join_step li{width:50%; margin-bottom:10px;}
+
